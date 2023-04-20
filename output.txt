@@ -1,0 +1,10 @@
+Script started on Wed Apr 19 21:01:33 2023
+]0;mtejedor@r1n00.darwin:~/CISC372_picProject[?1034h[mtejedor@r1n00 CISC372_picProject]$ export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
+]0;mtejedor@r1n00.darwin:~/CISC372_picProject[mtejedor@r1n00 CISC372_picProject]$ srun ./picOpenMp pic1.jpg edge
+Took 6 seconds
+]0;mtejedor@r1n00.darwin:~/CISC372_picProject[mtejedor@r1n00 CISC372_picProject]$ srun ./picPthread pic1.jpg eg dge
+Took 6 seconds
+]0;mtejedor@r1n00.darwin:~/CISC372_picProject[mtejedor@r1n00 CISC372_picProject]$ exit
+exit
+
+Script done on Wed Apr 19 21:02:35 2023
